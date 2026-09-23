@@ -8,6 +8,10 @@ Stored grains can be affected by insect infestation, which may reduce their qual
 
 The system uses an ESP32 as the main controller along with temperature and humidity, gas, and vibration sensors. The collected data is processed and monitored through the Blynk IoT platform.
 
+## Prototype
+
+![Smart Grain Insect Detection Prototype](smart%20insect%20grain%20detection%20image.jpeg)
+
 ## Components Used
 
 - ESP32 DevKit V1
@@ -27,6 +31,10 @@ The system uses an ESP32 as the main controller along with temperature and humid
 5. The readings are compared with predefined threshold values.
 6. When abnormal conditions are detected, the LED and buzzer provide an alert.
 7. Sensor data is sent to the Blynk IoT platform for remote monitoring and notifications.
+
+## Blynk Dashboard
+
+![Blynk Dashboard](dashboard%20image.jpeg)
 
 ## Technologies Used
 
